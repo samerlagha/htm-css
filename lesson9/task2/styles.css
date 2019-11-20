@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.red{
+    background-color:red;
+    float: right;
+
+}
+
+.green{
+  background-color:green;
+  float:left;
+}
+.footer{
+    border:2px solid black;
+ 
+  height: 30px;
+ clear: both;
+}
+.container{
+    float: left;
+    width: 50%;
+    background-color:aquamarine;
+}
