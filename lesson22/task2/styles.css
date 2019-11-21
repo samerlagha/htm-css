@@ -2,6 +2,7 @@
     background-color: #ff7f50;
     min-height: 200px;
     display: flex;
+    flex-direction:column ;
     flex-grow: 1;
 }
 
@@ -9,6 +10,7 @@
     background-color: #006400;
     min-height: 200px;
     display: flex;
+    flex-direction:column ;
     flex-grow: 1;
 }
 
@@ -16,6 +18,7 @@
     background-color: #0ff;
     min-height: 200px;
     display: flex;
+    flex-direction:column ;
     flex-grow: 1;
 }
 
