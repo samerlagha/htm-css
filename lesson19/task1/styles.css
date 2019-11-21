@@ -12,10 +12,9 @@
     margin-bottom: 16px;
     background-color: coral;
     opacity: 0.5;
-    line-height: 100px;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
     transition: width 2s, opacity 0.5s;
 }
 
