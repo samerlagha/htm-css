@@ -12,16 +12,17 @@
     margin-bottom: 16px;
     background-color: coral;
     opacity: 0.5;
-    display: flex;
+    line-height: 100px;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     transition: width 1s, opacity 0.5s;
 }
 
-.rect:hover {
+/* .rect:hover {
     width: 100%;
     opacity: 1;
-}
+} */
 
 .linear {
     transition-timing-function: linear;
