@@ -24,7 +24,7 @@
 
 span {
     background-color: #faebd7;
-    padding: 8px;
+    padding: 4px;
     border-radius: 4px;
     text-transform: lowercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,6 +34,7 @@ span {
 @media screen and (min-width:600px) {
     .products {
         display: flex;
+        flex-grow: 2;
     }
 }
 
@@ -41,10 +42,10 @@ span {
     .content {
         display: flex;
     }
-    .products {
+    /* .products {
         flex-grow: 2;
     }
     .news {
         flex-grow: 1;
-    }
+    } */
 }
