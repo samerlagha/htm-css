@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow: hidden;
+}
 .navigation {
     background-color: #ff7f50;
     min-height: 200px;
@@ -24,8 +31,9 @@ span {
     padding: 8px;
     border-radius: 4px;
     text-transform: lowercase;
+    margin:auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
+  
 }
 
 @media screen and (min-width:600px) {
@@ -39,5 +47,4 @@ span {
     .content {
         display: flex;
     }
-
 }
